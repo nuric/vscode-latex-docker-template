@@ -1,0 +1,19 @@
+{
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "latex-workshop.latex.outDir": "./out",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.docker.enabled": true,
+    "latex-workshop.docker.image.latex": "ghcr.io/xu-cheng/texlive-full",
+    "latex-workshop.view.pdf.invert": 0,
+    "latex-workshop.view.pdf.invertMode.enabled": "compat",
+    "cSpell.language": "en-GB",
+    "cSpell.ignorePaths": [
+        "**/vscode-extension/**",
+        "**/.git/objects/**",
+        ".vscode",
+    ],
+    "cSpell.words": [
+        "connectionist",
+    ]
+}
