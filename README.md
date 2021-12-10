@@ -1,6 +1,6 @@
-# vscode-latex-template
+# vscode-latex-docker-template
 
-A minimal VS Code LaTex template using Docker. It contains the configuration to get VS Code up and running for LaTex with Docker. Some of the configured features include:
+A minimal VS Code LaTex template using Docker containers to compile. It contains the configuration to get VS Code up and running for LaTex with Docker. Some of the configured features include:
 
 - GitHub Action to compile on push and have the PDF ready as an artifact.
 - Install the essential extensions using `.vscode/extensions.json` for LaTex and spell checking.
@@ -8,6 +8,8 @@ A minimal VS Code LaTex template using Docker. It contains the configuration to 
 - Uses the same Docker container locally and for CI to ensure consistency.
 - Format and compile on file save.
 - Invert PDF colours using the extension settings, `.vscode/settings.json`.
+
+The main motivation behind this setup is the extremely tedius and unhelpful native LaTex installation process. Using a Docker container to wrap `pdflatex` and more allows for a cleaner and more reproducible workspace.
 
 ## Built using
 
