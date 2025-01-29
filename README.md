@@ -1,5 +1,9 @@
 # vscode-latex-docker-template
 
+[![Compile LaTeX](https://github.com/nuric/vscode-latex-docker-template/actions/workflows/compile-latex.yml/badge.svg)](https://github.com/nuric/vscode-latex-docker-template/actions/workflows/compile-latex.yml)
+
+Update 2025-01-29: Confirming that this template is still working with the latest versions and default Github Codespaces.
+
 A minimal VS Code LaTex template using Docker containers to compile. It contains the configuration to get VS Code up and running for LaTex with Docker. Some of the configured features include:
 
 - GitHub Action to compile on push and have the PDF ready as an artifact.
